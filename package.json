@@ -1,0 +1,24 @@
+{
+  "name": "434321",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebb94/434321.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebb94/434321/issues"
+  },
+  "homepage": "https://github.com/sebb94/434321#readme",
+  "dependencies": {
+    "cypress": "^9.0.0",
+    "prettier": "^2.4.1"
+  }
+}

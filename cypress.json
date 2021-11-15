@@ -1,0 +1,22 @@
+{
+    "chromeWebSecurity": false,
+    "waitingForAnimations": true,
+    "darkMediaQuery": true,
+    "watchForFileChanges": true,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "waitForAnimations": true,
+    "animationDistanceTreshould": 20,
+    "defaultCommandTimeout": 240000,
+    "execTimeout": 240000,
+    "pageLoadTimeout": 720000,
+    "requestTimeout": 240000,
+    "responseTimeout": 240000,
+    "video": false,
+    "failOnStatusCode": false,
+    "retries": {
+      "runMode": 1,
+      "openMode": 0
+    }
+  }
+  
