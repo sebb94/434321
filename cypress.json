@@ -5,17 +5,18 @@
     "watchForFileChanges": true,
     "viewportWidth": 1920,
     "viewportHeight": 1080,
+    "baseUrl": "https://dietly.pl",
     "waitForAnimations": true,
     "animationDistanceTreshould": 20,
-    "defaultCommandTimeout": 240000,
-    "execTimeout": 240000,
+    "defaultCommandTimeout": 30000,
+    "execTimeout": 30000,
     "pageLoadTimeout": 720000,
-    "requestTimeout": 240000,
-    "responseTimeout": 240000,
+    "requestTimeout": 30000,
+    "responseTimeout": 30000,
     "video": false,
     "failOnStatusCode": false,
     "retries": {
-      "runMode": 1,
+      "runMode": 0,
       "openMode": 0
     }
   }
