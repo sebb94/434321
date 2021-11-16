@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sebb94/434321#readme",
   "dependencies": {
     "cypress": "^9.0.0",
+    "cypress-plugin-snapshots": "^1.4.4",
     "prettier": "^2.4.1"
   }
 }

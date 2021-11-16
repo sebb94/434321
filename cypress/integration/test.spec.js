@@ -99,11 +99,16 @@ describe('Test', () => {
         })  
     });
 
-
     it('visual regression', () => {
-        
+        cy.visit('https://dietly.pl/catering-dietetyczny-firma/catering2be')
+        cy.contains('.catering-offer__diet-title','JUNIOR').click()
+        cy.get('.amount-carousel input').clear().type('3')
+        cy.contains('.button-success','Zamów ten zestaw').click()
+        cy.get('.calendar__day:not(.calendar__day--past)').eq(0).click()
+        cy.contains('.button-success','Dodaj do koszyka').click()
+        cy.contains('.button-success','Przejdź do podsumowania').should('be.visible')
+        cy.contains('.box-step__title','Zamówienie').should('be.visible')
+        cy.get('body').toMatchImageSnapshot()
     });
-
-
 
 });
