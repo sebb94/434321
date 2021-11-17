@@ -10,8 +10,8 @@ describe('add to cart', () => {
         Dietly.clickButtonByContains('.button-success','Zamów ten zestaw')
         Dietly.clickButtonByGetWithEq('.calendar__day:not(.calendar__day--past)',0)
         Dietly.clickButtonByContains('.button-success','Dodaj do koszyka')
-        Dietly.visibleAssertionByGet('.button-success','Przejdź do podsumowania')
-        Dietly.visibleAssertionByGet('.box-step__title','Zamówienie')
+        Dietly.visibleAssertionByContains('.button-success','Przejdź do podsumowania')
+        Dietly.visibleAssertionByContains('.box-step__title','Zamówienie')
     
     });
 
