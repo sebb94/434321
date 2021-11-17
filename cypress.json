@@ -17,7 +17,7 @@
       "**/__snapshots__/*",
       "**/__image_snapshots__/*"
     ],
-    "video": true,
+    "video": false,
     "failOnStatusCode": false,
     "retries": {
       "runMode": 0,
