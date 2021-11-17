@@ -13,7 +13,11 @@
     "pageLoadTimeout": 720000,
     "requestTimeout": 30000,
     "responseTimeout": 30000,
-    "video": false,
+    "ignoreTestFiles": [
+      "**/__snapshots__/*",
+      "**/__image_snapshots__/*"
+    ],
+    "video": true,
     "failOnStatusCode": false,
     "retries": {
       "runMode": 0,
